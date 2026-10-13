@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Igor Mikołaj Kwiecień - Portfolio | Video Editor & Social Media Specialist</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="V4.css">
+</head>
+<body>
+
+  <!-- NAWIGACJA Z BEZPIECZNYM DROPDOWNEM -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-circle-play"></i>
+        Moje<span>Portfolio</span>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#o-mnie" class="nav-link">O mnie</a></li>
+        
+        <li class="nav-item">
+          <a href="#portfolio" class="nav-link">
+            Portfolio <i class="fa-solid fa-chevron-down"></i>
+          </a>
+          <ul class="dropdown">
+            <li><a href="#portfolio">✨ Wszystkie realizacje</a></li>
+            <li><a href="#sekcja-montaz-video"><i class="fa-solid fa-video"></i> Montaż Video</a></li>
+            <li><a href="#sekcja-miniaturki"><i class="fa-solid fa-wand-magic-sparkles"></i> Miniaturki i grafiki</a></li>
+			<li><a href="#sekcja-opisy-spisy-treści"><i class="fa-solid fa-file-lines"></i> Opisy & Spisy Treści</a></li>
+			<li><a href="#sekcja-arty"><i class="fa-solid fa-palette"></i> Arty</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#z-kim-pracowalem" class="nav-link">
+            Z kim współpracowałem <i class="fa-solid fa-chevron-down"></i>
+          </a>
+          <ul class="dropdown">
+            <li><a href="#z-kim-pracowalem">Kancelaria Pledziewicz & Legal Media</a></li>
+            <li><a href="#z-kim-pracowalem">Niesławny kard</a></li>
+            <li><a href="#z-kim-pracowalem">Osobiste projekty</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a href="#zakres-prac" class="nav-link">Zakres prac</a></li>
+        <li class="nav-item">
+          <a href="#kontakt" class="btn-nav-contact">
+            <i class="fa-solid fa-paper-plane"></i> Kontakt
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- SEKCJA HERO -->
+  <section id="o-mnie">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="status-badge">
+          <span class="status-dot"></span> OTWARTY NA NOWE PROJEKTY
+        </div>
+
+        <h1 class="hero-title">Projektuje treści, które przyciągają uwagę i budują zaangażowanie.</h1>
+        <p class="hero-desc">
+          Profesjonalny montażysta wideo, grafik z wisją estetyczną, szerokie wsparcie w zakresie obsługi mediów społecznościowych oraz osoba gotowa na nowe wyzwania. Prywatnie miłośnik gier wideo, kina, geografii oraz podróży. 
+        </p>
+        
+        <div class="spec-label">ZAKRES MOICH SPECJALIZACJI:</div>
+        <div class="badges-container">
+		  <span class="badge"><i class="fa-solid fa-video color-video"></i> Montaż Video</span>
+		  <span class="badge"><i class="fa-solid fa-wand-magic-sparkles color-graphic"></i> Miniaturki i grafiki</span>
+		  <span class="badge"><i class="fa-solid fa-file-lines color-text"></i> Opisy & Spisy Treści</span>
+		  <span class="badge"><i class="fa-solid fa-palette color-art"></i> Arty</span>
+		  <span class="badge"><i class="fa-solid fa-pen-nib color-copy"></i> Copywriting</span>
+		</div>
+
+        <div class="btn-group">
+          <button class="btn-primary" onclick="scrollToSection('portfolio')">
+            <i class="fa-solid fa-layer-group"></i> Zobacz portfolio
+          </button>
+          <button class="btn-secondary" onclick="scrollToSection('kontakt')">
+            <i class="fa-solid fa-envelope"></i> Skontaktuj się
+          </button>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <div class="profile-centered-header">
+          <div class="profile-avatar-wrapper">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="Igor Kwiecień" class="profile-avatar-large">
+            <span class="profile-online-dot"></span>
+          </div>
+          <h2 class="profile-name">Igor Mikołaj Kwiecień</h2>
+          <div class="profile-role">
+            <i class="fa-solid fa-clapperboard"></i> Video Editor & Social Media Specialist
+          </div>
+          <div class="profile-location">
+            <i class="fa-solid fa-location-dot"></i> Polska, cała (zdalnie) / Toruń (stacjonarnie)
+          </div>
+        </div>
+
+        <div class="profile-details">
+          <div class="profile-sub-section">
+            <div class="profile-sub-title">NARZĘDZIA:</div>
+            <div class="tools-list">
+			  <span class="icon-chip"><i class="fa-solid fa-video color-video"></i> DaVinci Resolve</span>
+			  <span class="icon-chip"><i class="fa-solid fa-wand-magic-sparkles color-graphic"></i> Canva</span>
+			  <span class="icon-chip"><i class="fa-solid fa-palette color-art"></i> Krita</span>
+			  <span class="icon-chip"><i class="fa-brands fa-youtube color-yt"></i> YouTube Studio</span>
+			  <span class="icon-chip"><i class="fa-solid fa-paintbrush color-art"></i> GIMP</span>
+			</div>
+          </div>
+
+          <div class="profile-sub-section">
+            <div class="profile-sub-title">OBSŁUGIWANE PLATFORMY:</div>
+            <div class="platforms-list">
+              <span class="icon-chip"><i class="fa-brands fa-youtube" style="color: #ff0000;"></i> YouTube</span>
+              <span class="icon-chip"><i class="fa-brands fa-instagram" style="color: #e4405f;"></i> Instagram</span>
+              <span class="icon-chip"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i> X/Twitter</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEKCJA PORTFOLIO (DOMYŚLNIE 4 KARTY W PASKU) -->
+  <section id="portfolio" class="portfolio-wrapper">
+    <div class="purple-header-box">
+      <h2 class="section-title-light">Moje Portfolio</h2>
+      <p class="section-subtitle-light">Tutaj znajdziesz moje projekty podzielone na konkretne kategorię tematycznę.</p>
+    </div>
+
+    <!-- PODSEKCJA: Montaż Video (4 widoczne + ukryte) -->
+    <div id="sekcja-montaz-video" class="portfolio-subsection">
+      <div class="purple-subheader-box">
+        <h3><i class="fa-solid fa-video"></i> Montaż Video</h3>
+      </div>
+
+      <div class="cards-grid">
+        <!-- 4 Podstawowe Karty -->
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/a1RlgguLkNE/hqdefault.jpg" alt="Video 1" class="v4-preview-img">
+            <a href="https://www.youtube.com/watch?v=a1RlgguLkNE&t=10s" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video 1</h4>
+            <p>Dynamiczny montaż materiału wideo na kanał YouTube / Social Media.</p>
+            <div class="project-tags-v4"><span>DaVinci</span><span>YouTube</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=a1RlgguLkNE&t=10s" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/6mYUsh73TQo/hqdefault.jpg" alt="Video 2" class="v4-preview-img">
+            <a href="https://www.youtube.com/watch?v=6mYUsh73TQo&t=2s" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video 2</h4>
+            <p>Dynamiczny montaż materiału wideo na kanał YouTube / Social Media.</p>
+            <div class="project-tags-v4"><span>DaVinci</span><span>YouTube</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=6mYUsh73TQo&t=2s" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/mED1UKadBes/hqdefault.jpg" alt="Video 3" class="v4-preview-img">
+            <a href="https://www.youtube.com/watch?v=mED1UKadBes" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video 3</h4>
+            <p>Dynamiczny montaż materiału wideo na kanał YouTube / Social Media.</p>
+            <div class="project-tags-v4"><span>DaVinci</span><span>YouTube</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=mED1UKadBes" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/fBaM0B_dLGU/hqdefault.jpg" alt="Video 4" class="v4-preview-img">
+            <a href="https://www.youtube.com/watch?v=fBaM0B_dLGU&t=53s" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video 4</h4>
+            <p>Dynamiczny montaż materiału wideo na kanał YouTube / Social Media.</p>
+            <div class="project-tags-v4"><span>DaVinci</span><span>YouTube</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=fBaM0B_dLGU&t=53s" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <!-- Ukryte Karty (Pojawiają się po "Pokaż więcej") -->
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=600&q=80" alt="Video 5" class="v4-preview-img">
+            <a href="https://www.instagram.com/reel/Ddb7Fa1DNE8/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Promocja Webinaru</h4>
+            <p>Krótka forma promująca nadchodzące wydarzenie. Montowane pod ścisły deadline.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>Instagram Reels</span><span>Pledziewicz</span></div>
+            <a href="https://www.instagram.com/reel/Ddb7Fa1DNE8/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/o4fIAn804ABmU4i3lEBnIA2IeEfRGAI1JAgX9L?x-expires=1770000000&x-signature=tiktok_thumb_1" alt="Video 6" class="v4-preview-img">
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7672319180477041942" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video - TikTok 1</h4>
+            <p>Krótka chwytliwa forma wideo skrojona pod algorytm TikToka.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>TikTok</span><span>Pledziewicz</span></div>
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7672319180477041942" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80" alt="Video 7" class="v4-preview-img">
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7673440296197246230" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video - TikTok 2</h4>
+            <p>Krótka chwytliwa forma wideo skrojona pod algorytm TikToka.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>TikTok</span><span>Pledziewicz</span></div>
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7673440296197246230" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80" alt="Video 8" class="v4-preview-img">
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7677573920328862998" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video - TikTok 3</h4>
+            <p>Krótka chwytliwa forma wideo skrojona pod algorytm TikToka.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>TikTok</span><span>Pledziewicz</span></div>
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7677573920328862998" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80" alt="Video 9" class="v4-preview-img">
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7680551453781544214" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video - TikTok 4</h4>
+            <p>Krótka chwytliwa forma wideo skrojona pod algorytm TikToka.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>TikTok</span><span>Pledziewicz</span></div>
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7680551453781544214" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80" alt="Video 10" class="v4-preview-img">
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7686461614731644182" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video - TikTok 5</h4>
+            <p>Krótka chwytliwa forma wideo skrojona pod algorytm TikToka.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>TikTok</span><span>Pledziewicz</span></div>
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7686461614731644182" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80" alt="Video 11" class="v4-preview-img">
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7688308866064370966" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Humorystyczny TikTok</h4>
+            <p>Krótka, luźna humorystyczna forma. Pokazują firmę od innej, bardziej ludzkiej strony.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>TikTok</span><span>Pledziewicz</span></div>
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7688308866064370966" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80" alt="Video 12" class="v4-preview-img">
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7689015511837052183" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>TikTok w którym wystąpiłem</h4>
+            <p>Krótka chwytliwa forma wideo skrojona pod algorytm TikToka.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>TikTok</span><span>Pledziewicz</span></div>
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7689015511837052183" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80" alt="Video 13" class="v4-preview-img">
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7691685471935630614" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video - TikTok 8</h4>
+            <p>Krótka chwytliwa forma wideo skrojona pod algorytm TikToka.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>TikTok</span><span>Pledziewicz</span></div>
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7691685471935630614" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80" alt="Video 14" class="v4-preview-img">
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7693185216050973974" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Montaż Video - TikTok 9</h4>
+            <p>Krótka chwytliwa forma wideo skrojona pod algorytm TikToka.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>TikTok</span><span>Pledziewicz</span></div>
+            <a href="https://www.tiktok.com/@pledziewicz_kancelaria/video/7693185216050973974" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/NaTZ-LID6LY/hqdefault.jpg" alt="Short 1" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/NaTZ-LID6LY" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/NaTZ-LID6LY" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/S8R2xdGt3R8/hqdefault.jpg" alt="Short 2" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/S8R2xdGt3R8" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/S8R2xdGt3R8" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/0GKx7b5O8yA/hqdefault.jpg" alt="Short 3" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/0GKx7b5O8yA" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/0GKx7b5O8yA" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/qX0cGyEO6ps/hqdefault.jpg" alt="Short 4" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/qX0cGyEO6ps" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/qX0cGyEO6ps" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/0hA4Wg7P4d8/hqdefault.jpg" alt="Short 5" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/0hA4Wg7P4d8" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/0hA4Wg7P4d8" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/7BVOoq8m68Y/hqdefault.jpg" alt="Short 6" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/7BVOoq8m68Y" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/7BVOoq8m68Y" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/ZHMOxur_Ta8/hqdefault.jpg" alt="Short 7" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/ZHMOxur_Ta8" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/ZHMOxur_Ta8" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/jI2w0IuBi_I/hqdefault.jpg" alt="Short 8" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/jI2w0IuBi_I" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/jI2w0IuBi_I" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/_khChjWQV7Y/hqdefault.jpg" alt="Short 9" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/_khChjWQV7Y" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/_khChjWQV7Y" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/GDHLr2GvK2M/hqdefault.jpg" alt="Short 10" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/GDHLr2GvK2M" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/GDHLr2GvK2M" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/41l_pl7Raj8/hqdefault.jpg" alt="Short 11" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/41l_pl7Raj8" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/41l_pl7Raj8" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/5hRZbD5q5n0/hqdefault.jpg" alt="Short 12" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/5hRZbD5q5n0" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/5hRZbD5q5n0" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/Qwa9maugHLI/hqdefault.jpg" alt="Short 13" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/Qwa9maugHLI" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/Qwa9maugHLI" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/ZU11_8Q8-Gc/hqdefault.jpg" alt="Short 14" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/ZU11_8Q8-Gc" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/ZU11_8Q8-Gc" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/xEKP5CmlH1Y/hqdefault.jpg" alt="Short 15" class="v4-preview-img">
+            <a href="https://www.youtube.com/shorts/xEKP5CmlH1Y" target="_blank" class="v4-play-overlay"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="v4-card-body">
+            <h4>Teaser na YT Shorts</h4>
+            <p>Wycinek filmu z dłuższego materiału.</p>
+            <div class="project-tags-v4"><span>CapCut</span><span>YT Shorts</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/shorts/xEKP5CmlH1Y" target="_blank" class="v4-card-link">Obejrzyj <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="see-more-container">
+        <button class="btn-see-more" onclick="toggleProjects(this)">
+          Pokaż więcej z Montażu Video <i class="fa-solid fa-chevron-down"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- PODSEKCJA: Miniaturki i Grafiki (4 widoczne + ukryte) -->
+    <div id="sekcja-miniaturki" class="portfolio-subsection">
+      <div class="purple-subheader-box">
+        <h3><i class="fa-solid fa-wand-magic-sparkles"></i> Miniaturki i grafiki</h3>
+      </div>
+
+      <div class="cards-grid">
+        <!-- 4 Podstawowe Karty -->
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/LbtNb18EaJU/hqdefault.jpg" alt="Miniaturka YT 1" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Miniaturka YT 1</h4>
+            <p>Wysoki kontrast i dopracowana kompozycja przyciągająca uwagę.</p>
+            <div class="project-tags-v4"><span>Canva</span><span>YouTube</span><span>Miniaturka</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=LbtNb18EaJU" target="_blank" class="v4-card-link">Zobacz wideo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/a1RlgguLkNE/hqdefault.jpg" alt="Miniaturka YT 2" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Miniaturka YT 2</h4>
+            <p>Wysoki kontrast i dopracowana kompozycja przyciągająca uwagę.</p>
+            <div class="project-tags-v4"><span>Canva</span><span>YouTube</span><span>Miniaturka</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=a1RlgguLkNE&t=10s" target="_blank" class="v4-card-link">Zobacz wideo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/6mYUsh73TQo/hqdefault.jpg" alt="Miniaturka YT 3" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Miniaturka YT 3</h4>
+            <p>Wysoki kontrast i dopracowana kompozycja przyciągająca uwagę.</p>
+            <div class="project-tags-v4"><span>Canva</span><span>YouTube</span><span>Miniaturka</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=6mYUsh73TQo&t=2s" target="_blank" class="v4-card-link">Zobacz wideo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/mED1UKadBes/hqdefault.jpg" alt="Miniaturka YT 4" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Miniaturka YT 4</h4>
+            <p>Wysoki kontrast i dopracowana kompozycja przyciągająca uwagę.</p>
+            <div class="project-tags-v4"><span>Canva</span><span>YouTube</span><span>Miniaturka</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=mED1UKadBes" target="_blank" class="v4-card-link">Zobacz wideo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <!-- Ukryte Karty -->
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&auto=format&fit=crop&q=80" alt="Grafika Instagram 1" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Grafika Instagram 1</h4>
+            <p>Spójny branding z użyciem dopasowanej palety barw.</p>
+            <div class="project-tags-v4"><span>Canva</span><span>Instagram</span><span>Grafika</span><span>Pledziewicz</span></div>
+            <a href="https://www.instagram.com/p/Da48216DR_e/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Zobacz wpis <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&auto=format&fit=crop&q=80" alt="Grafika 6" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Grafika Instagram 2</h4>
+            <p>Spójny branding z użyciem dopasowanej palety barw.</p>
+            <div class="project-tags-v4"><span>Canva</span><span>Instagram</span><span>Grafika</span><span>Pledziewicz</span></div>
+            <a href="https://www.instagram.com/p/DbDrgg1mu0T/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Zobacz wpis <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&auto=format&fit=crop&q=80" alt="Grafika 7" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Grafika Instagram 3</h4>
+            <p>Spójny branding z użyciem dopasowanej palety barw.</p>
+            <div class="project-tags-v4"><span>Canva</span><span>Instagram</span><span>Grafika</span></div>
+            <a href="https://www.instagram.com/p/DeD9592DYjs/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Zobacz wpis <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="see-more-container">
+        <button class="btn-see-more" onclick="toggleProjects(this)">
+          Pokaż więcej z Miniaturek i grafik <i class="fa-solid fa-chevron-down"></i>
+        </button>
+      </div>
+    </div>
+	
+		<!-- PODSEKCJA: Opisy i Spisy Treści (4 widoczne + ukryte) -->
+    <div id="sekcja-opisy-spisy-treści" class="portfolio-subsection">
+      <div class="purple-subheader-box">
+        <h3><i class="fa-solid fa-pen-nib"></i> Opisy i Spisy Treści</h3>
+      </div>
+
+      <div class="cards-grid">
+        <!-- 4 Podstawowe Karty -->
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/LbtNb18EaJU/hqdefault.jpg" alt="Opis 1" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Opis & Spis Treści YT 1</h4>
+            <p>Przemyślany opis z rozdziałami czasowymi i optymalizacją SEO pod algorytm.</p>
+            <div class="project-tags-v4"><span>SEO</span><span>Copywriting</span><span>YouTube</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=LbtNb18EaJU" target="_blank" class="v4-card-link">Zobacz film <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/a1RlgguLkNE/hqdefault.jpg" alt="Opis 2" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Opis & Spis Treści YT 2</h4>
+            <p>Przemyślany opis z rozdziałami czasowymi i optymalizacją SEO pod algorytm.</p>
+            <div class="project-tags-v4"><span>SEO</span><span>Copywriting</span><span>YouTube</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=a1RlgguLkNE&t=10s" target="_blank" class="v4-card-link">Zobacz film <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/6mYUsh73TQo/hqdefault.jpg" alt="Opis 3" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Opis & Spis Treści YT 3</h4>
+            <p>Przemyślany opis z rozdziałami czasowymi i optymalizacją SEO pod algorytm.</p>
+            <div class="project-tags-v4"><span>SEO</span><span>Copywriting</span><span>YouTube</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=6mYUsh73TQo&t=2s" target="_blank" class="v4-card-link">Zobacz film <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/mED1UKadBes/hqdefault.jpg" alt="Opis 4" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Opis & Spis Treści YT 4</h4>
+            <p>Przemyślany opis z rozdziałami czasowymi i optymalizacją SEO pod algorytm.</p>
+            <div class="project-tags-v4"><span>SEO</span><span>Copywriting</span><span>YouTube</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=mED1UKadBes" target="_blank" class="v4-card-link">Zobacz film <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <!-- Ukryte Karty -->
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://img.youtube.com/vi/fBaM0B_dLGU/hqdefault.jpg" alt="Opis 5" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Opis & Spis Treści YT 5</h4>
+            <p>Przemyślany opis z rozdziałami czasowymi i optymalizacją SEO pod algorytm.</p>
+            <div class="project-tags-v4"><span>SEO</span><span>Copywriting</span><span>YouTube</span><span>Pledziewicz</span></div>
+            <a href="https://www.youtube.com/watch?v=fBaM0B_dLGU&t=53s" target="_blank" class="v4-card-link">Zobacz film <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&auto=format&fit=crop&q=80" alt="Opis 6" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Opis Postu Instagram 1</h4>
+            <p>Angażujący tekst posta z hashtagami i wezwaniem do działania (CTA).</p>
+            <div class="project-tags-v4"><span>opis</span><span>Copywriting</span><span>Instagram</span><span>Pledziewicz</span></div>
+            <a href="https://www.instagram.com/p/Da48216DR_e/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Zobacz post <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&auto=format&fit=crop&q=80" alt="Opis 7" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Opis Postu Instagram 2</h4>
+            <p>Angażujący tekst posta z hashtagami i wezwaniem do działania (CTA).</p>
+            <div class="project-tags-v4"><span>opis</span><span>Copywriting</span><span>Instagram</span><span>Pledziewicz</span></div>
+            <a href="https://www.instagram.com/p/DbDrgg1mu0T/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Zobacz post <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="see-more-container">
+        <button class="btn-see-more" onclick="toggleProjects(this)">
+          Pokaż więcej z Opisów i spisów treści <i class="fa-solid fa-chevron-down"></i>
+        </button>
+      </div>
+    </div>
+	
+		<!-- PODSEKCJA: Arty (4 widoczne + ukryte) -->
+    <div id="sekcja-arty" class="portfolio-subsection">
+      <div class="purple-subheader-box">
+        <h3><i class="fa-solid fa-palette"></i> Arty</h3>
+      </div>
+
+      <div class="cards-grid">
+        <!-- 4 Podstawowe Karty -->
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://www.instagram.com/p/CcdpaKvLTWU/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" alt="Grafika 1" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Miniaturka Gaming CTR</h4>
+            <p>Wysoki kontrast i dopracowany pierwszy plan.</p>
+            <div class="project-tags-v4"><span>Krita</span><span>Commission</span><span>Digital Art</span></div>
+            <a href="https://www.instagram.com/p/CcdpaKvLTWU/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Zobacz na Instagramie <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&auto=format&fit=crop&q=80" alt="Grafika 2" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Grafika Postu na Facebook</h4>
+            <p>Spójny branding z użyciem firmowej palety barw.</p>
+            <div class="project-tags-v4"><span>Krita</span><span>Commission</span><span>Digital Art</span><span>Niesławny Kadr</span></div>
+            <a href="https://www.instagram.com/p/C4iZQRHIHdh/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Zobacz na Instagramie <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&auto=format&fit=crop&q=80" alt="Grafika 3" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Baner Kanału YouTube</h4>
+            <p>Optymalizacja układu pod TV, desktop oraz urządzenia mobilne.</p>
+            <div class="project-tags-v4"><span>Krita</span><span>Digital Art</span></div>
+            <a href="https://www.instagram.com/p/CihW42lr1t1/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Zobacz na Instagramie <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="v4-green-card">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&auto=format&fit=crop&q=80" alt="Grafika 4" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Concept Art / Ilustracja</h4>
+            <p>Cyfrowy malunek wykonany w darmowym oprogramowaniu Krita.</p>
+            <div class="project-tags-v4"><span>Krita</span><span>Digital Art</span></div>
+            <a href="https://www.instagram.com/p/CrbfBhdLimD/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Zobacz na Instagramie <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <!-- Ukryta Karta -->
+        <div class="v4-green-card extra-project" style="display: none;">
+          <div class="v4-preview-box">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&auto=format&fit=crop&q=80" alt="Grafika 5" class="v4-preview-img">
+          </div>
+          <div class="v4-card-body">
+            <h4>Okładka Podcastu</h4>
+            <p>Minimalistyczna grafika zaprojektowana na Spotify i Apple Podcasts.</p>
+            <div class="project-tags-v4"><span>Krita</span><span>Digital Art</span></div>
+            <a href="https://www.instagram.com/p/C8ekcgvNHel/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" class="v4-card-link">Zobacz na Instagramie <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="see-more-container">
+        <button class="btn-see-more" onclick="toggleProjects(this)">
+          Pokaż więcej z Artów <i class="fa-solid fa-chevron-down"></i>
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- WSPÓŁPRACA -->
+  <section id="z-kim-pracowalem" class="section-wrapper">
+    <div class="purple-header-box">
+      <h2 class="section-title-light">Z kim współpracowałem</h2>
+      <p class="section-subtitle-light">Kanały i firmy, z którymi współpracowałem i pomagałem w ich rozwoju.</p>
+    </div>
+
+    <div class="cards-grid">
+      <!-- KARTA 1: Pledziewicz -->
+      <div class="v4-green-card client-card-v4">
+        <div class="client-card-content">
+          <div class="v4-client-avatar">
+            <img src="grafiki/pledziewicz.webp" alt="Pledziewicz Logo" class="v4-client-logo">
+          </div>
+          <h4>Pledziewicz Kancelaria & Legal Media</h4>
+          <p>Profesjonalna kancelaria prawna zajmująca się kredytami waloryzowanymi do waluty CHF i EUR.</p>
+          
+          <div class="project-tags-v4">
+            <span><i class="fa-solid fa-video"></i> Montaż Video</span>
+            <span><i class="fa-solid fa-wand-magic-sparkles"></i> Miniaturki</span>
+            <span><i class="fa-solid fa-wand-magic-sparkles"></i> Grafiki</span>
+            <span><i class="fa-solid fa-pen-nib"></i> Scenariusze</span>
+            <span><i class="fa-solid fa-chart-line"></i> Stała obsługa</span>
+            <span><i class="fa-solid fa-file-lines"></i> Opisy i spisy treści</span>
+            <span><i class="fa-solid fa-file-lines"></i> Analiza konkurencji</span>
+          </div>
+        </div>
+
+        <div class="client-card-footer">
+          <a href="https://www.pledziewicz.pl/" target="_blank" class="v4-card-link"><i class="fa-solid fa-globe"></i> Pledziewicz Kancelaria <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://www.youtube.com/@PledziewiczKancelaria/featured" target="_blank" class="v4-card-link"><i class="fa-brands fa-youtube"></i> YouTube PK <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://www.instagram.com/pledziewiczkancelaria/" target="_blank" class="v4-card-link"><i class="fa-brands fa-instagram"></i> Instagram PK <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://legalmedia.pl/" target="_blank" class="v4-card-link"><i class="fa-solid fa-globe"></i> Legal Media <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <!-- KARTA 2: Niesławny Kadr -->
+      <div class="v4-green-card client-card-v4">
+        <div class="client-card-content">
+          <div class="v4-client-avatar">
+            <img src="nieslawny_kadr.png" alt="Niesławny kadr Logo" class="v4-client-logo">
+          </div>
+          <h4>Niesławny kard</h4>
+          <p>Profil pasjonatów Polskiego Kina.</p>
+          
+          <div class="project-tags-v4">
+            <span><i class="fa-solid fa-palette"></i> Logo Marki</span>
+          </div>
+        </div>
+
+        <div class="client-card-footer">
+          <a href="https://www.instagram.com/nieslawny_kadr/" target="_blank" class="v4-card-link"><i class="fa-brands fa-instagram"></i> Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <!-- KARTA 3: Osobiste Projekty -->
+      <div class="v4-green-card client-card-v4">
+        <div class="client-card-content">
+          <div class="v4-client-avatar">
+            <img src="robot_bialy_.png" alt="Robot Logo" class="v4-client-logo">
+          </div>
+          <h4>Osobiste projekty</h4>
+          <p>Moja internetowa działalność, pasjonata gier, filmów czy ogólnie szeroko pojętej popkultury.</p>
+          
+          <div class="project-tags-v4">
+            <span><i class="fa-solid fa-video"></i> 50+ filmów</span>
+            <span><i class="fa-solid fa-wand-magic-sparkles"></i> Miniaturki YT</span>
+            <span><i class="fa-solid fa-wand-magic-sparkles"></i> Grafiki IG</span>
+            <span><i class="fa-solid fa-palette"></i> Digital Art</span>
+            <span><i class="fa-solid fa-pen-nib"></i> Recenzje i Scenariusze</span>
+            <span><i class="fa-solid fa-file-lines"></i> Opisy i spisy treści</span>
+          </div>
+        </div>
+
+        <div class="client-card-footer">
+          <a href="https://www.youtube.com/@apriltanker1591" target="_blank" class="v4-card-link"><i class="fa-brands fa-youtube"></i> YouTube <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+            <a href="https://www.instagram.com/silverapril01/" target="_blank" class="v4-card-link"><i class="fa-brands fa-instagram"></i> Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a href="https://x.com/April20015" target="_blank" class="v4-card-link"><i class="fa-brands fa-twitter"></i> Twitter / X <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ZAKRES PRAC -->
+  <section id="zakres-prac" class="section-wrapper">
+    <div class="purple-header-box">
+      <h2 class="section-title-light">Zakres prac</h2>
+      <p class="section-subtitle-light">Obszary działań, w których oferuję swoje wsparcie.</p>
+    </div>
+
+    <div class="services-grid-v4">
+      <div class="v4-green-card service-card-v4">
+        <div class="v4-service-icon"><i class="fa-solid fa-video"></i></div>
+        <h4>Montaż Video</h4>
+        <p>Potrzebujesz Video w krótkiej czy dłuższej formie? Dynamiczne czy spokojne? Poważne czy zabawne? Niezależnie od wymagań, wykonam każde zadanie.</p>
+      </div>
+
+      <div class="v4-green-card service-card-v4">
+        <div class="v4-service-icon"><i class="fa-solid fa-percent"></i></div>
+        <h4>Miniaturki i grafiki</h4>
+        <p>Jeśli potrzebujesz by twoje grafiki bądź miniaturki wyglądały estetycznie, profesjonalnie i wpisujące się w estetykę twojej marki, zrobię je dla ciebie.</p>
+      </div>
+
+      <div class="v4-green-card service-card-v4">
+        <div class="v4-service-icon"><i class="fa-solid fa-file-lines"></i></div>
+        <h4>Opisy & Spisy Treści</h4>
+        <p>Projektuje przykuwajęce uwage SEO tytuły, spisy treści czy opisy.</p>
+      </div>
+
+      <div class="v4-green-card service-card-v4">
+        <div class="v4-service-icon"><i class="fa-solid fa-palette"></i></div>
+        <h4>Arty & Ilustracje</h4>
+        <p>Tworzę niepodrabialnie digital arty z wyrazistym osobistym stylem.</p>
+      </div>
+
+      <div class="v4-green-card service-card-v4">
+        <div class="v4-service-icon"><i class="fa-solid fa-pen-nib"></i></div>
+        <h4>Copywriting</h4>
+        <p>Angażujące posty, teksty promocyjne czy scenariusze do filmów. Wykonam je dla ciebie.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="kontakt" class="section-wrapper">
+    <div class="contact-green-card">
+      <div class="contact-card-header">
+        <h2>Nawiążmy współpracę!</h2>
+        <p>Skontaktuj się ze mną poprzez formularz lub napisz do mnie na Instagramie.</p>
+        
+        <a href="https://instagram.com/silverapril01" target="_blank" rel="noopener noreferrer" class="btn-instagram-v4">
+          <i class="fa-brands fa-instagram"></i> Profil Instagram (@silverapril01)
+        </a>
+      </div>
+
+      <form class="contact-form-v4" action="https://formsubmit.co/igormkwiecien@wp.pl" method="POST">
+        <!-- Zabezpieczenie przed spamem i konfiguracja odpowiedzi -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="Nowa wiadomość z formularza portfolio!">
+
+        <div class="form-row-v4">
+          <div class="form-group-v4">
+            <label for="name">IMIĘ / NAZWA FIRMY</label>
+            <input type="text" id="name" name="name" placeholder="Jan Kowalski" required>
+          </div>
+          <div class="form-group-v4">
+            <label for="email">ADRES E-MAIL</label>
+            <input type="email" id="email" name="email" placeholder="jan@example.com" required>
+          </div>
+        </div>
+
+        <div class="form-group-v4">
+          <label for="service">USŁUGA</label>
+          <select id="service" name="service">
+            <option value="Montaż Video">Montaż Video</option>
+            <option value="Miniaturki i grafiki">Miniaturki i grafiki</option>
+            <option value="Opisy & Spisy Treści">Opisy & Spisy Treści</option>
+            <option value="Arty & Ilustracje">Arty & Ilustracje</option>
+            <option value="Copywriting">Copywriting</option>
+          </select>
+        </div>
+
+        <div class="form-group-v4">
+          <label for="message">WIADOMOŚĆ</label>
+          <textarea id="message" name="message" rows="5" placeholder="Opisz swój projekt..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit-v4">
+          <i class="fa-solid fa-paper-plane"></i> Wyślij wiadomość
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- STOPKA -->
+  <footer class="glowna-stopka">
+    <div class="stopka-zawartosc">
+      <div>&copy; 2026 Portfolio Igor Mikołaj Kwiecień. Wszystkie prawa zastrzeżone.</div>
+      <div class="social-ikony">
+        <a href="https://www.youtube.com/@apriltanker1591" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/silverapril01/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+		<a href="https://x.com/April20015" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+<!-- SKRYPT AUTOMATYCZNEGO POBIERANIA I DOPASOWANIA MINIATUR TIKTOKA -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tiktokCards = document.querySelectorAll('.v4-green-card a[href*="tiktok.com"]');
+      
+      tiktokCards.forEach(link => {
+        const videoUrl = link.href;
+        const card = link.closest('.v4-green-card');
+        const img = card.querySelector('.v4-preview-img');
+        const previewBox = card.querySelector('.v4-preview-box');
+        
+        if (img && videoUrl) {
+          // Dopasowanie stylu kadru pod pionowe wideo
+          img.style.objectFit = 'contain';
+          if (previewBox) {
+            previewBox.style.backgroundColor = '#000000';
+          }
+
+          fetch(`https://www.tiktok.com/oembed?url=${encodeURIComponent(videoUrl)}`)
+            .then(res => res.json())
+            .then(data => {
+              if (data.thumbnail_url) {
+                img.src = data.thumbnail_url;
+              }
+            })
+            .catch(err => console.log('Błąd pobierania miniaturki TikTok:', err));
+        }
+      });
+    });
+  </script>
+  
+  <!-- SKRYPT AUTOMATYCZNEGO POBIERANIA TIKTOKA ORAZ EMBEDOWANIA INSTAGRAMA -->
+  <script async src="https://www.instagram.com/embed.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // 1. AUTOMATYCZNE MINIATURKI DLA TIKTOKA
+      const tiktokCards = document.querySelectorAll('.v4-green-card a[href*="tiktok.com"]');
+      tiktokCards.forEach(link => {
+        const videoUrl = link.href;
+        const card = link.closest('.v4-green-card');
+        const img = card.querySelector('.v4-preview-img');
+        const previewBox = card.querySelector('.v4-preview-box');
+        
+        if (img && videoUrl) {
+          img.style.objectFit = 'contain';
+          if (previewBox) previewBox.style.backgroundColor = '#000000';
+
+          fetch(`https://www.tiktok.com/oembed?url=${encodeURIComponent(videoUrl)}`)
+            .then(res => res.json())
+            .then(data => {
+              if (data.thumbnail_url) {
+                img.src = data.thumbnail_url;
+              }
+            })
+            .catch(err => console.log('Błąd pobierania miniaturki TikTok:', err));
+        }
+      });
+
+      // 2. AUTOMATYCZNY EMBED DLA INSTAGRAMA (Reels i Posty)
+      const instagramCards = document.querySelectorAll('.v4-green-card a[href*="instagram.com"]');
+      instagramCards.forEach(link => {
+        const postUrl = link.href;
+        const card = link.closest('.v4-green-card');
+        const previewBox = card.querySelector('.v4-preview-box');
+
+        if (previewBox && postUrl) {
+          // Tworzenie oficjalnej struktury Embed Instagrama
+          previewBox.innerHTML = `
+            <blockquote class="instagram-media" 
+              data-instgrm-permalink="${postUrl}" 
+              data-instgrm-version="14" 
+              style="background:#000; border:0; border-radius:12px; margin:0; width:100%; height:100%; max-height:280px; overflow:hidden;">
+            </blockquote>
+          `;
+        }
+      });
+
+      // Przetworzenie ramek po załadowaniu skryptu Instagrama
+      if (window.instgrm) {
+        window.instgrm.Embeds.process();
+      }
+    });
+  </script>
+  
+
+  <!-- SKRYPTY JS -->
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function toggleProjects(button) {
+      const subsection = button.closest('.portfolio-subsection');
+      const extraProjects = subsection.querySelectorAll('.extra-project');
+      let isExpanded = button.classList.contains('expanded');
+
+      extraProjects.forEach(card => {
+        card.style.display = isExpanded ? 'none' : 'flex';
+      });
+
+      if (isExpanded) {
+        button.classList.remove('expanded');
+        button.innerHTML = button.innerHTML.replace('Zwiń', 'Pokaż więcej').replace('fa-chevron-up', 'fa-chevron-down');
+      } else {
+        button.classList.add('expanded');
+        button.innerHTML = button.innerHTML.replace('Pokaż więcej', 'Zwiń').replace('fa-chevron-down', 'fa-chevron-up');
+      }
+    }
+  </script>
+</body>
+</html>
